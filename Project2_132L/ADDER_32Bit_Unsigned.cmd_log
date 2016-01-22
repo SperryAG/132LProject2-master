@@ -1,0 +1,1 @@
+vhdtdtfi -prj Project2_132L -o C:/Users/David/Desktop/132LProject2-master/Project2_132L/ADDER_32Bit_Unsigned.vhi -module ADDER_32Bit_Unsigned -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ADDER_32Bit_Unsigned.vhd 

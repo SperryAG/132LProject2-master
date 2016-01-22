@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/David/Desktop/132LProject2-master/Project2_132L/ADDER_32Bit_Unsigned_isim_beh.exe" -prj "C:/Users/David/Desktop/132LProject2-master/Project2_132L/ADDER_32Bit_Unsigned_beh.prj" "work.ADDER_32Bit_Unsigned" 

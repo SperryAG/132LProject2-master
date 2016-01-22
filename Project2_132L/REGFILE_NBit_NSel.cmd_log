@@ -1,0 +1,1 @@
+vhdtdtfi -prj Project2_132L -o C:/Users/David/Desktop/132LProject2-master/Project2_132L/REGFILE_NBit_NSel.vhi -module REGFILE_NBit_NSel -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work REGFILE_NBit_NSel.vhd 

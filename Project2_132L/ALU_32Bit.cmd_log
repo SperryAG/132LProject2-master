@@ -1,0 +1,1 @@
+vhdtdtfi -prj Project2_132L -o C:/Users/David/Desktop/132LProject2-master/Project2_132L/ALU_32Bit.vhi -module ALU_32Bit -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ALU_32Bit.vhd 

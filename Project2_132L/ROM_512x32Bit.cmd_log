@@ -1,0 +1,1 @@
+vhdtdtfi -prj Project2_132L -o C:/Users/David/Desktop/132LProject2-master/Project2_132L/ROM_512x32Bit.vhi -module ROM_512x32Bit -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ROM_512x32Bit.vhd 
