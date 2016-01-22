@@ -8,7 +8,34 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/David/Desktop/132LProject2-master/Project2_132L/ADDER_32Bit_Unsigned.vhd&quot; into library work</arg>
+</msg>
+
 <msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/David/Desktop/132LProject2-master/Project2_132L/ALU_32Bit.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/David/Desktop/132LProject2-master/Project2_132L/CONTROLLER_32Bit.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/David/Desktop/132LProject2-master/Project2_132L/MUX_2to1_32Bit.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/David/Desktop/132LProject2-master/Project2_132L/PROCESSOR_32Bit.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/David/Desktop/132LProject2-master/Project2_132L/PROG_COUNTER_32Bit.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/David/Desktop/132LProject2-master/Project2_132L/RAM_512x32Bit.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/David/Desktop/132LProject2-master/Project2_132L/REGFILE_NBit_NSel.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/David/Desktop/132LProject2-master/Project2_132L/ROM_512x32Bit.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/David/Desktop/132LProject2-master/Project2_132L/SIGNEXTEND_16to32Bit.vhd&quot; into library work</arg>
 </msg>
 
 </messages>
