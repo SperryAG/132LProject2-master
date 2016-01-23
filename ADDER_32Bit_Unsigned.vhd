@@ -24,7 +24,7 @@ ARCHITECTURE Behavioral OF ADDER_32Bit_Unsigned IS
 BEGIN
 	PROCESS(pc)
 	BEGIN
-		o<=pc+val;
+		o <= pc + val;
 	END PROCESS;
 END Behavioral;
 
