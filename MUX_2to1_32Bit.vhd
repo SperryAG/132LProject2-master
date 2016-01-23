@@ -12,10 +12,10 @@ USE IEEE.STD_LOGIC_1164.ALL;
 ----------------------------------------------------------------------------------
 ENTITY MUX_2to1_32Bit IS
 	PORT( 
-		d0  : IN  STD_LOGIC_VECTOR(31 DOWNTO 0);
-      d1  : IN  STD_LOGIC_VECTOR(31 DOWNTO 0);
-      sel : IN  STD_LOGIC;
-      o   : OUT STD_LOGIC_VECTOR(31 DOWNTO 0)
+        d0  : IN  STD_LOGIC_VECTOR(31 DOWNTO 0);
+        d1  : IN  STD_LOGIC_VECTOR(31 DOWNTO 0);
+        sel : IN  STD_LOGIC;
+        o   : OUT STD_LOGIC_VECTOR(31 DOWNTO 0)
 	);
 END MUX_2to1_32Bit;
 ----------------------------------------------------------------------------------
