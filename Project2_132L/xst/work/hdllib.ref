@@ -1,4 +1,9 @@
+EN prog_counter_32bit NULL C:/Users/David/Desktop/132LProject2-master/Project2_132L/PROG_COUNTER_32Bit.vhd sub00/vhpl06 1453593702
 EN alu_32bit NULL C:/Users/David/Desktop/132LProject2-master/Project2_132L/ALU_32Bit.vhd sub00/vhpl02 1453432862
-EN adder_32bit_unsigned NULL C:/Users/David/Desktop/132LProject2-master/Project2_132L/ADDER_32Bit_Unsigned.vhd sub00/vhpl00 1453431975
-AR adder_32bit_unsigned behavioral C:/Users/David/Desktop/132LProject2-master/Project2_132L/ADDER_32Bit_Unsigned.vhd sub00/vhpl01 1453430472
+EN adder_32bit_unsigned NULL C:/Users/David/Desktop/132LProject2-master/Project2_132L/ADDER_32Bit_Unsigned.vhd sub00/vhpl00 1453593704
+AR adder_32bit_unsigned behavioral C:/Users/David/Desktop/132LProject2-master/Project2_132L/ADDER_32Bit_Unsigned.vhd sub00/vhpl01 1453593705
+AR prog_counter_32bit behavioral C:/Users/David/Desktop/132LProject2-master/Project2_132L/PROG_COUNTER_32Bit.vhd sub00/vhpl07 1453593703
+AR controller_32bit behavioral C:/Users/David/Desktop/132LProject2-master/Project2_132L/CONTROLLER_32Bit.vhd sub00/vhpl05 1453593312
+EN controller_32bit NULL C:/Users/David/Desktop/132LProject2-master/Project2_132L/CONTROLLER_32Bit.vhd sub00/vhpl04 1453593311
+EN rom_512x32bit NULL C:/Users/David/Desktop/132LProject2-master/Project2_132L/ROM_512x32Bit.vhd sub00/vhpl08 1453593773
 AR alu_32bit behavioral C:/Users/David/Desktop/132LProject2-master/Project2_132L/ALU_32Bit.vhd sub00/vhpl03 1453432863
