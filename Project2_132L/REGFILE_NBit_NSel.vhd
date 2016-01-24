@@ -14,7 +14,8 @@ USE IEEE.STD_LOGIC_1164.ALL;
 ENTITY REGFILE_NBit_NSel IS
 	GENERIC(
 		NBIT: INTEGER := 32;
-		NSEL: INTEGER := 3);
+		NSEL: INTEGER := 3
+    );
 	PORT(
 		clk     : IN  STD_LOGIC;
 		rst_s   : IN  STD_LOGIC;                         -- synchronous reset

@@ -1,0 +1,2 @@
+vhdl work "CONTROLLER_32Bit.vhd"
+vhdl work "PROCESSOR_32Bit.vhd"

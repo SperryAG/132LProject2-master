@@ -1,0 +1,41 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/David/Desktop/132LProject2-master/Project2_132L/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/David/Desktop/132LProject2-master/Project2_132L/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/David/Desktop/132LProject2-master/Project2_132L/PROG_COUNTER_32Bit.vhd" in Library work.
+Architecture behavioral of Entity prog_counter_32bit is up to date.
+Compiling vhdl file "C:/Users/David/Desktop/132LProject2-master/Project2_132L/ADDER_32Bit_Unsigned.vhd" in Library work.
+Entity <adder_32bit_unsigned> compiled.
+Entity <adder_32bit_unsigned> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/David/Desktop/132LProject2-master/Project2_132L/ROM_512x32Bit.vhd" in Library work.
+Entity <ROM_512x32Bit> compiled.
+ERROR:HDLParsers:3312 - "C:/Users/David/Desktop/132LProject2-master/Project2_132L/ROM_512x32Bit.vhd" Line 26. Undefined symbol 'CONV_INTEGER'.
+ERROR:HDLParsers:1209 - "C:/Users/David/Desktop/132LProject2-master/Project2_132L/ROM_512x32Bit.vhd" Line 26. CONV_INTEGER: Undefined symbol (last report in this block)
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.21 secs
+ 
+--> 
+
+Total memory usage is 214092 kilobytes
+
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
