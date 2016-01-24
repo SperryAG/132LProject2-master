@@ -28,6 +28,44 @@ END CONTROLLER_32Bit;
 ----------------------------------------------------------------------------------
 ARCHITECTURE Behavioral OF CONTROLLER_32Bit IS
 BEGIN
-
+    PROCESS (Func, Op)
+	BEGIN
+        -- R-TYPE Instructions
+        ----------------------------
+		IF (Op = "000000") THEN
+			MemToReg   <= '0';
+            MemWrite   <= '0';
+            Branch     <= '0';
+            ALUControl <= Func;
+            ALUSrc     <= '0';
+            RegDst     <= '1';
+            RegWrite   <= '1';
+            
+        -- J-TYPE Instructions
+        ----------------------------
+		ELSIF (Op(5 DOWNTO 1) = "00001") THEN
+            
+        -- Coprocessor Instructions
+        ----------------------------
+		ELSIF (Op(5 DOWNTO 2) = "0100") THEN
+        
+        -- I-Type Instructions
+        ----------------------------
+		ELSE
+            MemToReg   <= '1';
+            Branch     <= '0';
+            ALUControl <= Func;
+            ALUSrc     <= '1';
+            RegDst     <= '0';
+            
+            IF (Op = "100011") THEN --lw
+                MemWrite   <= '0';
+                RegWrite   <= '1';
+            ELSIF (Op = "101011") THEN --sw
+                MemWrite   <= '1';
+                RegWrite   <= '0';
+            END IF;
+        END IF;
+	END PROCESS;
 END Behavioral;
 
